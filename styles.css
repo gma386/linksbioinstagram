@@ -1,0 +1,29 @@
+body {
+  background-color: #2f2f2f;
+  display: flex;
+  flex-direction: column; /* Organiza os elementos em coluna */
+  justify-content: center; /* Centraliza verticalmente */
+  align-items: center; /* Centraliza horizontalmente */
+  height: 100vh; /* Garante que o body ocupe toda a altura da janela */
+  margin: 0; /* Remove margens padrão */
+  font-family: Arial, sans-serif; /* Define uma fonte básica */
+  color: white; /* Deixa o texto visível no fundo escuro */
+}
+
+img {
+  max-width: 100px; /* Limita o tamanho da imagem */
+  margin-bottom: 20px; /* Adiciona espaço abaixo da imagem */
+  border-radius: 5px;
+}
+
+a {
+  text-decoration: none; /* Remove o sublinhado dos links */
+  color: #61dafb; /* Define a cor dos links */
+  font-size: 18px; /* Aumenta o tamanho da fonte */
+  margin: 5px 0; /* Espaçamento entre os links */
+  transition: color 0.3s; /* Adiciona transição para hover */
+}
+
+a:hover {
+  color: #ffffff; /* Muda a cor dos links ao passar o mouse */
+}
