@@ -12,18 +12,38 @@ body {
 
 img {
   max-width: 100px; /* Limita o tamanho da imagem */
-  margin-bottom: 20px; /* Adiciona espaço abaixo da imagem */
   border-radius: 5px;
+  
 }
 
 a {
   text-decoration: none; /* Remove o sublinhado dos links */
-  color: #61dafb; /* Define a cor dos links */
-  font-size: 18px; /* Aumenta o tamanho da fonte */
-  margin: 5px 0; /* Espaçamento entre os links */
-  transition: color 0.3s; /* Adiciona transição para hover */
+  text-decoration: none;
 }
 
 a:hover {
   color: #ffffff; /* Muda a cor dos links ao passar o mouse */
+}
+
+.btn-links {
+  color:white;
+  border: 1px solid #292929;
+  border-radius: 20px;
+  padding: 10px 50px;
+  font-size: 18px; /* Aumenta o tamanho da fonte */
+  margin: 5px 0; /* Espaçamento entre os links */
+  transition: color 0.3s; /* Adiciona transição para hover */
+  margin-bottom: 15px;
+  width: 150px;
+  text-align: center;
+  background-color: black;
+}
+
+.btn-links:hover {
+  background-color: #292929 ;
+
+}
+
+#logo-home {
+  margin-bottom: 50px; /* Adiciona espaço abaixo da imagem */
 }
